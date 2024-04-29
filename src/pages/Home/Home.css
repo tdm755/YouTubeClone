@@ -1,0 +1,24 @@
+
+.container{
+    padding-left: 5%;
+    padding-top: 3%;
+}
+.largeContainer{
+    padding-left: 13%; 
+      
+}
+
+.largeContainer .card{
+   width: 270px;
+}
+
+.largeContainer .feed .userProf img{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+.largeContainer .feed img{
+    width: 270px;
+
+}

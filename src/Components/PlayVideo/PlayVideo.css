@@ -1,0 +1,166 @@
+iframe{
+    height: 30vw;
+    width: 98%;
+    border-radius: 10px;    
+}
+
+
+
+.interaction_section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    align-items: center;
+    width: 98%;
+}
+
+
+
+.channel{
+    display: flex;
+    align-items:center ;
+    gap: 7px;        
+}
+
+.channel img{
+    height: 40px;
+    border-radius: 100px;
+}
+
+
+.SubscriptionStatus{
+    display: flex;
+    align-items: center;
+    background-color: #c6c6c635;
+    border-radius: 17px;
+    margin-left: 15px;
+}
+
+.SubscriptionStatus img{
+    height: 20px;
+
+}
+
+.SubscriptionStatus select{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    cursor: pointer;
+}
+
+.right_part{
+    display: flex;
+    gap: 20px;    
+}
+
+
+.likeCounts, .Share, .Download, .save{
+    background-color: #c6c6c635;
+    color: black;
+    padding: 3px 10px;
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+.Share{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.Share img{
+    height: 17px;
+}
+
+.likeCounts img{
+    height: 17px;
+
+}
+
+.likeCounts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.Download {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.Download i{
+    color: #00000093;
+}
+
+.save{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.save img{
+    height: 17px;
+}
+
+.Description{
+    margin-top: 70px;
+    background-color: #c6c6c635;
+    padding: 17px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 98%;
+}
+
+.userComments>img{
+    height: 30px;
+    border-radius: 100%;
+}
+
+.commentSection{
+    margin-top: 20px;
+    width: 98%;
+}
+
+.comments{
+    display: flex;
+    /* gap: 17px; */
+    padding: 30px 0px;
+    flex-direction: column;
+    
+}
+
+.userComments{
+    display: flex;
+    gap: 17px;
+}
+
+.response{
+    display: flex;
+    gap: 23px;
+    margin: 10px 55px 0px ;
+    
+}
+
+.likes img{
+    height: 17px;
+    cursor: pointer;
+}
+
+.thumbsUp{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.likes{
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    
+}
+
+.reply{
+    cursor: pointer;
+}

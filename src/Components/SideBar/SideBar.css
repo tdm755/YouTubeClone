@@ -1,0 +1,78 @@
+.sideBar{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 15%;    
+    background-color: #fff;
+    height: 100vh;   
+    position: fixed;
+    top: 0;
+    padding-left: 3%;
+    padding-top: 80px;
+    z-index: 3;
+    
+
+}
+
+.sideBar hr{
+    border: 1px solid #0000000D;
+    width: 87%;
+}
+
+
+.sideLink img{
+    width: 20px;
+}
+
+.sideLink {
+    display: flex;
+    gap: 10px;   
+    cursor: pointer;
+}
+
+.subscribersList{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sideLinks {
+    display: flex;
+    gap: 10px;   
+    cursor: pointer;   
+}
+
+.sideLinks img{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;    
+}
+
+
+.hide .sideLink p{
+    display: none;
+}
+
+.hide .subscribersList {
+    display: none;
+}
+
+.hide hr{
+    width: 20px;
+}
+
+.hide {
+    padding-left: 3%;
+    padding-top: 80px;
+    width: 50px;
+    /* overflow: hidden; */
+    /* margin-left: 17px; */
+    
+}
+
+
+.active img{
+    border-bottom: 3px solid rgb(197, 37, 37);
+    padding-bottom: 1px;
+
+}

@@ -1,0 +1,103 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 2%;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    background-color: #fff;
+    z-index: 5;
+    /* box-shadow: 0px 0px 5px  rgb(188, 188, 188); */
+}
+
+
+.right-part, .left-part, .middle-part{
+    display: flex;
+    align-items: center;
+}
+
+.left-part{
+    margin-left: 10px;
+}
+
+.MenuIcon{
+    margin-right: 10px;
+    height: 17px;
+    cursor: pointer;
+
+}
+
+.searchIconDiv{
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14%;
+    background-color: #F8F8F8;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.LogoIcon{
+    height: 25px;
+    margin-left: 20px;
+}
+
+.middle-part input{
+    width: 89%;
+    height: 99%;
+    border: none;
+    border-right: 1px solid rgb(198, 198, 198);
+    outline: none;
+    box-shadow: inset 1px 1px 4px #0000000D;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    padding-left: 15px;
+    /* border: 1px solid rgb(198, 198, 198); */
+}
+
+.middle-part {
+    border-radius:  100px;
+    width: 500px;
+    height: 30px;
+    border: 1px solid #0000000D;     
+    /* border-right: none; */
+    overflow: hidden;
+    outline: none;
+    font-size: 16px;
+    /* padding-left: 15px; */
+    font-weight: 0;
+    border: 1px solid rgb(198, 198, 198);
+
+}
+
+
+
+.search{
+    margin-left: 25px;  
+    height: 17px;  
+    /* border: 1px solid rgb(198, 198, 198); */
+
+}
+
+.profilePic{
+    height: 40px;
+    border-radius: 100px;
+    cursor: pointer;
+
+}
+
+.utilityIconProps{
+    padding: 4px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.UploadIcon, .MoreIcon, .NotificationIcon{
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 20px;
+
+}
