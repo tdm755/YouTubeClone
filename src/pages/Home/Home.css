@@ -2,7 +2,12 @@
 .container{
     padding-left: 5%;
     padding-top: 3%;
+    
 }
+
+
+
+
 .largeContainer{
     padding-left: 13%; 
       
@@ -20,5 +25,48 @@
 
 .largeContainer .feed img{
     width: 270px;
+
+}
+
+
+
+
+
+@media (max-width: 500px) {
+    .largeContainer{
+        padding-left: 0; 
+          
+    }
+
+    .largeContainer .card{
+        width: 348px;
+     }
+
+     .largeContainer .feed img{
+        width: 348px;
+        height: 200px;
+    
+    }
+
+    .container{
+        padding-left: 0;
+        padding-top: 3%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    
+.container{
+    padding-left: 5%;
+    padding-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 
 }

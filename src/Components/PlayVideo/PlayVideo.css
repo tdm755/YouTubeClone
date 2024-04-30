@@ -104,6 +104,17 @@ iframe{
     height: 17px;
 }
 
+.play_container{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+    margin-left: 10%;
+    margin-top: 2%;
+    gap: 7px;  
+    position: relative;
+    z-index: -1;
+}
+
 .Description{
     margin-top: 70px;
     background-color: #c6c6c635;
@@ -163,4 +174,18 @@ iframe{
 
 .reply{
     cursor: pointer;
+}
+
+
+
+
+@media (max-width:1007px) {
+    .play_container{
+        width: 100vh;
+        margin-left: 3.5%;
+    }
+
+    iframe{
+        height: 622px;
+    }
 }

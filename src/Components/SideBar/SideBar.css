@@ -9,10 +9,10 @@
     top: 0;
     padding-left: 3%;
     padding-top: 80px;
-    z-index: 3;
-    
+    z-index: 3; 
 
 }
+
 
 .sideBar hr{
     border: 1px solid #0000000D;
@@ -62,17 +62,47 @@
 }
 
 .hide {
-    padding-left: 3%;
+     /* padding-left: 3%; */
+     /* overflow: hidden;  */
+     /* margin-left: 17px; */
     padding-top: 80px;
     width: 50px;
-    /* overflow: hidden; */
-    /* margin-left: 17px; */
-    
 }
+    
+
 
 
 .active img{
     border-bottom: 3px solid rgb(197, 37, 37);
     padding-bottom: 1px;
+
+}
+
+
+
+@media (max-width: 699px){
+
+    .sideBar{
+        display: flex;
+        flex-direction: row;
+        height: 50px !important;
+        justify-content: space-evenly;
+        position: fixed;
+        bottom: 0;
+        top: auto;
+        width: 100%;
+        background-color: #fff;
+        align-items: center;   
+        padding-top: 0px;  
+    
+    }
+
+    .sideLink p{
+        display: none;
+    }
+    
+    .subscribersList {
+        display: none;
+    }
 
 }

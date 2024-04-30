@@ -1,20 +1,21 @@
 .play-video{
     display: flex;
+    
 }
 
-.play_container{
-    display: flex;
-    flex-direction: column;
-    flex-basis: 60%;
-    margin-left: 10%;
-    margin-top: 2%;
-    gap: 7px;  
-    position: relative;
-    z-index: -1;
-}
+
 
 .play-video h2{
     font-size: 20px;
 }
 
+@media (max-width:1007px) {
+    .play-video{
+        display: block;
+       width: 100vh;
+    }
+
+    
+
+}
 

@@ -38,8 +38,8 @@ function Recommended({categoryId}) {
                     <h4>{item.snippet.title}</h4>
                     <div className="chennelName">
                         <h5>{item.snippet.channelTitle}</h5>
+                    <p><span>{item.statistics.viewCount} views </span><span>2 month ago</span></p>
                     </div>
-                    <p>{item.statistics.viewCount} views <span>2 month ago</span></p>
              </div>                
         </Link> 
         })}

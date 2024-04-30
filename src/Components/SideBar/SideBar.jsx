@@ -50,7 +50,7 @@ function SideBar({stateOfSideBar, category, setCategory}) {
           <img src={newsIcon} alt="" /> <p>News</p>
         </div>
             
-            <hr />
+            {/* <hr /> */}
 
         <div className="subscribersList">
           <h3>Subcriptions</h3>

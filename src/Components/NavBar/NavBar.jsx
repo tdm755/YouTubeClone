@@ -21,13 +21,13 @@ function NavBar({updateTheSideBar}) {
 
   return (
     <nav>
-      
+
         <div className="left-part">
           <img className='MenuIcon' onClick={handleClick} src={menuicon} alt="" />
           <Link to={'/'} ><img className='LogoIcon ' src={logo} alt="" /> </Link>
         </div>
 
-        <div className="middle-part">
+        <div className="middle-part mMiddle">
           <input type="text" name="" id="" />
           <div className="searchIconDiv">
               <img className='search' src={searchIcon} alt="" />          
@@ -39,10 +39,7 @@ function NavBar({updateTheSideBar}) {
           <img className='utilityIconProps  MoreIcon' src={more_icon} alt="" />
           <img  className='utilityIconProps NotificationIcon' src={notification_icon} alt="" />
           <img className='profilePic' src={profile_icon} alt="" />
-        </div>
-
-    
-
+        </div>      
            
     </nav>
   )
