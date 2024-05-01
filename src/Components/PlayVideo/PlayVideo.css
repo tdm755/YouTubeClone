@@ -112,7 +112,6 @@ iframe{
     margin-top: 2%;
     gap: 7px;  
     position: relative;
-    z-index: -1;
 }
 
 .Description{
