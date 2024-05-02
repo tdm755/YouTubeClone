@@ -6,6 +6,7 @@ import upload_icon from '../../assets/upload.png'
 import more_icon from '../../assets/more.png'
 import notification_icon from '../../assets/notification.png'
 import profile_icon from '../../assets/jack.png'
+import logoPng from "../../assets/Arpits.png"
 
 import './NavBar.css';
 import { Link } from 'react-router-dom';
@@ -24,7 +25,7 @@ function NavBar({updateTheSideBar}) {
 
         <div className="left-part">
           <img className='MenuIcon' onClick={handleClick} src={menuicon} alt="" />
-          <Link to={'/'} ><img className='LogoIcon ' src={logo} alt="" /> </Link>
+          <Link to={'/'} ><img className='LogoIcon ' src={logoPng} alt="" /> </Link>
         </div>
 
         <div className="middle-part mMiddle">

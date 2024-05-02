@@ -52,7 +52,8 @@ function PlayVideo() {
 
     return (
         <div className='play_container'>
-            <iframe height="402" src={`https://www.youtube.com/embed/${videoID}?autoplay=1`} frameBorder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            {/* <iframe height="402" src={`https://www.youtube.com/embed/${videoID}?autoplay=1`} frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
+            <iframe width="402" src={`https://www.youtube.com/embed/${videoID}?autoplay=1`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <h2>{apiKeyData ? apiKeyData.snippet.title : "Title here"}</h2>
 
             <div className='interaction_section'>

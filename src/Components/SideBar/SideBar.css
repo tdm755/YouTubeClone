@@ -80,7 +80,7 @@
 
 
 
-@media (max-width: 699px){
+ @media (max-width: 699px){
 
     .sideBar{
         display: flex;
@@ -105,4 +105,4 @@
         display: none;
     }
 
-}
+} 

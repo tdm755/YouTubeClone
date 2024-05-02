@@ -45,7 +45,6 @@
     height: 30px;
     width: 30px;
     border-radius: 100%;
-    /* background-color: red; */
 }
 
 
@@ -60,12 +59,10 @@
         height: 30px;
         width: 30px;
         border-radius: 100%;
-        /* background-color: red; */
     }
 
     .card{
         border-radius: 10px;
-        /* overflow: hidden; */
         text-decoration: none;
         width: 96%;
         
@@ -78,7 +75,6 @@
         row-gap: 40px;
         padding-left: 0;
         flex-direction: column;
-        /* align-items: center; */
         justify-content: center;
     }
     
