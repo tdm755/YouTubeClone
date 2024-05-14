@@ -14,7 +14,11 @@ function Home({stateOfSideBar}) {
     <>
       <SideBar stateOfSideBar = {stateOfSideBar} category={category} setCategory={setCategory} />
       <div className={`container ${stateOfSideBar ? "largeContainer" : ""}`}> 
-         <Feed category={category}/>
+
+     
+        <Feed category={category}/>
+     
+
       </div>
     </>
   )
